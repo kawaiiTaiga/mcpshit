@@ -1,0 +1,4 @@
+- mcp는 아니고 mcp에 구성요소임
+- 간단한 dense embedding 기반 검색기
+- http://localhost:8000/docs
+- gguf (llamacpp 필요)
