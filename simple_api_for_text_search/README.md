@@ -1,6 +1,7 @@
 # Milvus Lite Vector Search API
 
-BGE-M3-KO 임베딩 모델과 Milvus Lite를 사용한 간단한 벡터 검색 API
+BGE-M3-KO 임베딩 모델과 Milvus Lite를 사용한 간단한 벡터 검색 API...
+mcp는 아니고 mcp 만들기 편할려고 만들어둠
 
 ## 설치 및 실행
 
