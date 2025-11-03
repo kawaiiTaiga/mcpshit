@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  llama-server:
+    image: ghcr.io/ggerganov/llama.cpp:server
+    container_name: llama-embedding-server
+    volumes:
+      - ./models:/models
+    command: >
+      -m /models/bge-m3-ko.gguf
+      --embedding
+      --host 0.0.0.0
+      --port 8080
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+  fastapi-app:
+    build: .
+    container_name: milvus-fastapi
+    volumes:
+      - ./app.py:/app/app.py
+      - ./milvus_data:/app/milvus_data
+    ports:
+      - "8000:8000"
+    depends_on:
+      - llama-server
+    environment:
+      - LLAMA_SERVER_URL=http://llama-server:8080
+    restart: unless-stopped
