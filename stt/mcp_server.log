@@ -1,0 +1,31 @@
+2025-11-20 22:22:57,281 [INFO] === Fish TTS MCP Server Starting (Unified) ===
+2025-11-20 22:22:57,281 [INFO] Output Directory: tts_output
+2025-11-20 22:22:57,282 [INFO] TTS API: http://localhost:8080/v1/tts
+2025-11-20 22:22:57,282 [INFO] Reference Audio: taiga.wav
+2025-11-20 22:22:57,283 [INFO] Auto Play: True
+2025-11-20 22:22:57,283 [DEBUG] Initializing server 'fishtts-server'
+2025-11-20 22:22:57,283 [DEBUG] Registering handler for ListToolsRequest
+2025-11-20 22:22:57,283 [DEBUG] Registering handler for CallToolRequest
+2025-11-20 22:22:57,283 [DEBUG] Using proactor: IocpProactor
+2025-11-20 22:22:57,284 [INFO] Starting stdio server...
+2025-11-20 22:22:57,291 [INFO] Stdio server initialized
+2025-11-20 22:22:57,291 [INFO] Waiting for client connections...
+2025-11-20 22:22:57,293 [DEBUG] Init options: server_name='fishtts-server' server_version='1.13.1' capabilities=ServerCapabilities(experimental={}, logging=None, prompts=None, resources=None, tools=ToolsCapability(listChanged=False), completions=None) instructions=None
+2025-11-20 22:25:01,424 [DEBUG] Received message: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='pip install pyyaml\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/json_invalid
+2025-11-20 22:25:04,070 [INFO] Server stopped by user
+2025-11-20 22:29:08,994 [INFO] === Fish TTS MCP Server Starting (Unified) ===
+2025-11-20 22:29:08,994 [INFO] Output Directory: tts_output
+2025-11-20 22:29:08,995 [INFO] TTS API: http://localhost:8080/v1/tts
+2025-11-20 22:29:08,995 [INFO] Reference Audio: taiga.wav
+2025-11-20 22:29:08,996 [INFO] Auto Play: True
+2025-11-20 22:29:08,996 [DEBUG] Initializing server 'fishtts-server'
+2025-11-20 22:29:08,996 [DEBUG] Registering handler for ListToolsRequest
+2025-11-20 22:29:08,996 [DEBUG] Registering handler for CallToolRequest
+2025-11-20 22:29:08,996 [DEBUG] Using proactor: IocpProactor
+2025-11-20 22:29:08,997 [INFO] Starting stdio server...
+2025-11-20 22:29:09,002 [INFO] Stdio server initialized
+2025-11-20 22:29:09,002 [INFO] Waiting for client connections...
+2025-11-20 22:29:09,004 [DEBUG] Init options: server_name='fishtts-server' server_version='1.13.1' capabilities=ServerCapabilities(experimental={}, logging=None, prompts=None, resources=None, tools=ToolsCapability(listChanged=False), completions=None) instructions=None
+2025-11-20 22:37:04,454 [INFO] Server stopped by user

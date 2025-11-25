@@ -1,0 +1,14 @@
+{
+    "whisper_server_url": "http://localhost:8000",
+    "wakeword_models": [
+        "ruby_chan.onnx"
+    ],
+    "wakeword_threshold": 0.5,
+    "max_recording_duration": 10.0,
+    "silence_duration": 1.5,
+    "silence_threshold": 500,
+    "cooldown_time": 3.0,
+    "overlay_image_path": "love_live.jpg",
+    "overlay_duration_ms": 1500,
+    "overlay_sound_file": "wakeword_sound.wav"
+}
